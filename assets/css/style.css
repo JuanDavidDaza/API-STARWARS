@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  /*el z-index estamos volviendo el header tridimencional*/
+  z-index: 1;
+}
+
+.headerStyle {
+  color: #229bd3;
+}
+
+.datosPersonajes {
+  margin-top: 160px;
+  margin-bottom: 60px;
+}
+
+.pagination {
+  text-align: center;
+}
