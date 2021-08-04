@@ -25,8 +25,12 @@ const llenarDatos = (data) => {
     //html += ` <img src="${pj.name}" class="card-img-top" alt="${pj.name}">`;
     html += '<div class="card-body">';
     html += `<h5 class="card-title">${pj.name}</h5>`;
+    html += `<hr>`;
     html += `<strong><p class="card-text">Height:</strong> ${pj.height}</p>`;
     html += `<strong><p class="card-text">Gender:</strong> ${pj.gender}</p>`;
+    html += `<strong><p class="card-text">Hair color:</strong> ${pj.hair_color}</p>`;
+    html += `<strong><p class="card-text">Eye color:</strong> ${pj.eye_color}</p>`;
+    html += `<strong><p class="card-text">Birth year:</strong> ${pj.birth_year}</p>`;
     html += "</div>";
     html += "</div>";
     html += "</div>";
